@@ -31,7 +31,7 @@ const resources = [
     {
         id: 'res4',
         title: 'edX: Free Online Courses',
-        description: 'Access to high-quality online courses from the world’s best universities and institutions.',
+        description: 'Access to high-quality online courses from the worldâ€™s best universities and institutions.',
         url: 'https://www.edx.org/free-online-courses',
         category: 'Various',
         level: 'All Levels',
@@ -72,8 +72,8 @@ const resources = [
         category: 'Technology',
         level: 'Beginner',
         tags: ['web development', 'HTML', 'CSS', 'JavaScript', 'free', 'tutorials']
-    }
-];// ... (rest of your existing resources) ...
+    },
+
     {
         id: 'res9',
         title: 'Academic Earth: Free Online Courses',
