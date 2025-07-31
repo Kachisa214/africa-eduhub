@@ -81,6 +81,8 @@ const allResourcesContainer = document.getElementById('allResources');
 const subjectTagsContainer = document.getElementById('subjectTags');
 const searchInput = document.getElementById('searchInput');
 const searchButton = document.getElementById('searchButton');
+console.log("Search Input Element:", searchInput);   // Add this line
+console.log("Search Button Element:", searchButton); // Add this line
 
 // --- Functions to display resources ---
 
