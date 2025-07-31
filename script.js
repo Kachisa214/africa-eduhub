@@ -188,15 +188,7 @@ searchInput.addEventListener('keypress', (event) => {
         performSearch();
     }
 });
-// Get DOM elements
-const featuredResourcesContainer = document.getElementById('featuredResources');
-const allResourcesContainer = document.getElementById('allResources');
-const subjectTagsContainer = document.getElementById('subjectTags');
-const searchInput = document.getElementById('searchInput'); // <--- CHECK THIS LINE
-const searchButton = document.getElementById('searchButton'); // <--- CHECK THIS LINE
 
-console.log("Search Input Element:", searchInput);   // Add this line
-console.log("Search Button Element:", searchButton); // Add this line
 // --- Initial Page Load ---
 document.addEventListener('DOMContentLoaded', () => {
     // Render some featured resources (e.g., the first 3)
