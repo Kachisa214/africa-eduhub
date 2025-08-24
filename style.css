@@ -177,6 +177,15 @@ main {
     color: white;
 }
 
+/* No results message */
+.no-results {
+    text-align: center;
+    padding: 40px;
+    font-size: 1.2rem;
+    color: #666;
+    grid-column: 1 / -1;
+}
+
 /* Footer Styles */
 footer {
     background-color: #333;
